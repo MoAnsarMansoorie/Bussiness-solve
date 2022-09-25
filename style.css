@@ -315,29 +315,175 @@ footer {
     margin-top: 3rem;
   }
   
-  .footer-heading {
+.footer-heading {
     font-size: 1.3rem;
     font-weight: 600;
-  }
+}
   
-  .footer-logo {
+.footer-logo {
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid rgba(112, 112, 112, 0.393);
     padding-bottom: 4rem;
     padding-top: 4rem;
     align-items: center;
-  }
+}
   
-  .footer-links-container {
+.footer-links-container {
     display: flex;
     justify-content: space-between;
     margin-top: 3rem;
     padding-bottom: 3rem;
-  }
+}
   
-  .footer-item {
+.footer-item {
     margin: 1.2rem 0;
     color: rgb(177, 177, 177);
-  }
+}
+
+
+@media screen and (max-width:768px) {
+    .nav-item{
+        display: none;
+    }    
+
+    .hero-container{
+        height: 160vh;
+        background: #6a7681;
+    }
+
+    .hero-section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-left-container img{
+        width: 400px;
+        height: 400px;
+    }
+
+    .hero-title{
+        margin-left: 3rem;
+    }
+
+    .hero-description{
+        margin-left: 3rem;
+    }
+
+    .email-container{
+        margin-left: 3rem;
+    }
+
+    .show-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .show-middle{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .show-card{
+        column-gap: -10rem;
+    }
+
+    .show-image img{
+        width: 250px;
+        height: 250px;
+    }
+
+    .care-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .care-card{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .care-image img{
+        width: 350px;
+        height: 350px;
+        margin-left: 5rem;
+        margin-top: 5rem;
+    }
+
+    .care-card2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .care-image2 img{
+        width: 350px;
+        height: 350px;
+        margin-top: -5rem;
+    }
+
+    .care-details2{
+        margin-left: 5rem;
+    }
+
+    .care-card3{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .care-image3 img{
+        width: 350px;
+        height: 350px;
+        margin-left: 5rem;
+        margin-top: 5rem;
+    }
+
+    .creative-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .creative-right-cont{
+        display: flex;
+        margin-left: 5rem;
+        margin-top: 2rem;
+    }
+
+    .creative-team-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .creative-left-content{
+        margin-left: -2rem;
+    }
+
+    .creative-middle-content{
+        margin-top: 3rem;
+    }
+
+    .creative-right-content{
+        margin-left: 5rem;
+        margin-top: 2rem;
+    }
+
+    .see-more{
+        margin-left: 10rem;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-logo{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-links-container{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 
